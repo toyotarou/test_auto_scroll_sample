@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -65,7 +66,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   List<Widget> _getTabs() {
-    List<Widget> list = [];
+    final list = <Widget>[];
 
     for (var i = 0; i < 15; i++) {
       list.add(
